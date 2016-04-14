@@ -1,6 +1,6 @@
 #### RepData_PeerAssessmentProj1
-#### Report with Figures and R codes is in th PA1_template.docx file
-Figures which can not be added into the .md file are listed as follow
+#### Report with Figures and R codes is in th PA1_template.md file
+#### Report with Figures and R codes is also in th PA1_template.docx file
  ###### unnamed-chunk-1-1
  ###### unnamed-chunk-2-1
  ###### unnamed-chunk-3-1
