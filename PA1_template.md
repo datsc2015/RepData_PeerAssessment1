@@ -112,7 +112,7 @@ avg <- aggregate(x=list(steps=dat$steps),by=list(interval=dat$interval), FUN=mea
 ggplot(data=avg, aes(x=interval, y=steps))+geom_line(color="blue",size=1)+xlab("5-minute Interval")+ylab("Average Number of Steps Taken")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png?raw=true)
+![](unnamed-chunk-2-1.png?raw=true)
 
 ```r
 print("Maximum number of Steps in 5-minute Interval")
@@ -186,7 +186,7 @@ dim(steps.imp)
 hist(steps.imp,breaks=10,xlab="Total Number of Steps Taken per Day", col="green",main="Total Steps including Imputing Value")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png?raw=true)
+![](unnamed-chunk-3-1.png?raw=true)
 
 ```r
 mean(steps.imp)
@@ -234,7 +234,7 @@ xyplot(steps ~  interval|factor(weektype), data=avg.imp,
             ylab="Number of Steps",layout=c(1,2))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png?raw=true)
+![](unnamed-chunk-4-1.png?raw=true)
 
 ```r
 #transform the .Rmd to a markdown (.md) file.
