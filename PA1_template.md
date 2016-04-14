@@ -56,7 +56,7 @@ dim(steps.total)
 hist(steps.total,breaks=10,xlab="Total Number of Steps Taken per Day", col="grey",main="Histogram of Total Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-1-1.png?raw=true)
+![](unnamed-chunk-1-1.png?raw=true)
 
 ```r
 print("Mean of Total number of steps taken per day")
